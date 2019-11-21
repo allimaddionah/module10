@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+main {
+  position: relative;
+  height: 100vh;
+}
+#slideout-ad {
+  height: 200px;
+  max-width: 320px;
+  background-color: #efefef;
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  bottom: 36px;
+}
+button {
+  background-color: #11a57c;
+  color: #efefef;
+  width: 100px;
+  height: 30px;
+}
+
+
+/* Animate the slide out */
+.show {
+  width: 100%;
+  border: 2px solid #11a57c;
+  padding: 16px;
+  transition: width 2s;
+  }
+  .hide {
+    width: 0;
+    padding: 0;
+    border: 0;
+  }
